@@ -121,6 +121,7 @@ def check_email(sender: str, subject: str, body: str, urls: str = "", attachment
 
     # 2. 網址
     all_urls = extract_urls(urls) + extract_urls(body)
+    other_domains = set()
     for u in dict.fromkeys(all_urls):
         d = domain_of(u)
         if re.fullmatch(r"\d+\.\d+\.\d+\.\d+", d):
@@ -134,8 +135,12 @@ def check_email(sender: str, subject: str, body: str, urls: str = "", attachment
             reasons.append((15, f"連結使用高風險網域結尾 .{tld}"))
         if u.lower().split("?")[0].endswith(RISKY_EXT):
             reasons.append((20, "連結直接下載壓縮檔／執行檔"))
-        if s_dom and d and not is_official(d) and d != s_dom and not d.endswith(s_dom):
-            reasons.append((5, f"連結網域（{d}）和寄件網域（{s_dom}）不同"))
+        if s_dom and d and not is_official(d) and d != s_dom and not d.endswith(s_dom) and not s_dom.endswith("." + d):
+            other_domains.add(d)
+
+    if other_domains:
+        shown = "、".join(sorted(other_domains)[:3])
+        reasons.append((5, f"連結網域和寄件網域不同（{shown}）"))
 
     # 3. 內容話術
     hits = [w for w in URGENCY if w.lower() in low]
@@ -165,6 +170,7 @@ def check_email(sender: str, subject: str, body: str, urls: str = "", attachment
     if is_official(s_dom) and all(is_official(domain_of(u)) for u in all_urls):
         reasons.append((-30, f"寄件者與連結都是官方網域（{s_dom}）"))
 
+    reasons = list(dict.fromkeys(reasons))  # 同一條理由只算一次
     score = max(min(sum(p for p, _ in reasons), 100), 0)
     verdict = "釣魚" if score >= 40 else ("可疑" if score >= 20 else "正常")
     return {"score": score, "verdict": verdict,

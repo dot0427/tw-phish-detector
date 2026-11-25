@@ -5,7 +5,8 @@
 做法：把資料集裡的「釣魚信」套上幾種改寫手法，再交給規則和 LLM 判斷。
 只改寫已去武裝化的現有樣本，網址都是假的，不會產生能用的詐騙信。
 
-執行：python3 attack.py            （預設 LLM 用 few-shot）
+執行：python3 attack.py              （預設 LLM 用 zero-shot）
+     python3 attack.py --few-shot   （改用 few-shot）
      python3 attack.py --no-llm   （只測規則）
 輸出：results/attack_summary.csv
 """
@@ -70,6 +71,8 @@ ATTACKS = {
 
 def main():
     use_llm = "--no-llm" not in sys.argv
+    few = "--few-shot" in sys.argv
+    out = "results/attack_summary_fewshot.csv" if few else "results/attack_summary.csv"
     phish = [e for e in load_emails() if e["label"] == "釣魚"]
     n = len(phish)
     rows = []
@@ -81,7 +84,7 @@ def main():
             hit_r += r >= 40
             if use_llm:
                 print(f"{name}｜{e['id']} …")
-                l = llm_score(v, few_shot=True) or 0
+                l = llm_score(v, few_shot=few) or 0
                 hit_l += l >= 50
                 hit_c += (r >= 70 or l >= 70 or 0.4 * r + 0.6 * l >= 45)
         row = {"改寫手法": name, "規則抓到": f"{hit_r}/{n}"}
@@ -89,13 +92,13 @@ def main():
             row.update({"LLM 抓到": f"{hit_l}/{n}", "合併（信心優先）抓到": f"{hit_c}/{n}"})
         rows.append(row)
 
-    with open("results/attack_summary.csv", "w", newline="", encoding="utf-8-sig") as f:
+    with open(out, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader(); w.writerows(rows)
     print()
     for r in rows:
         print("  ".join(f"{k}：{v}" for k, v in r.items()))
-    print("\n結果已存到 results/attack_summary.csv")
+    print(f"\n結果已存到 {out}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1156 @@
+{
+ "0332ae71091d940a9601176dcb432423e1eed54c": {
+  "is_phishing": false,
+  "confidence": 70,
+  "reasons": [
+   "網域仿冒（niu-edu-tw.test）",
+   "24 小時內完成身分驗證"
+  ],
+  "suspicious_phrases": [
+   "外部裝置登入",
+   "24 小時內完成身分驗證"
+  ]
+ },
+ "9854995166306b0bf1ccf28e013b2e34949802d8": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.test",
+   "要求在 24 小時內完成身分驗證",
+   "網址有異常，可能是仿冒網站"
+  ],
+  "suspicious_phrases": [
+   "外部裝置登入",
+   "逾期帳號將暫時停用"
+  ]
+ },
+ "94cd3e0314f0dcd0e9925f2a9e7e99f740881cb1": {
+  "is_phishing": false,
+  "confidence": 20,
+  "reasons": [
+   "寄件者網域與官方網域不符",
+   "缺乏官方通訊常見的詳細說明"
+  ],
+  "suspicious_phrases": [
+   "逾期將退回"
+  ]
+ },
+ "a39fbeffbb6b0d26e15c41d60c1ee1bca522c35f": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（post-gov-tw.test）",
+   "要求支付費用並加急處理",
+   "網址可疑"
+  ],
+  "suspicious_phrases": [
+   "逾期將退回",
+   "hxxps://post-gov-tw[.]test/redeliver"
+  ]
+ },
+ "1f15db4bac2875b1765ae8a42dadf8f63046347f": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（sh0pee-tw.test）",
+   "網址可疑（非官方網域）",
+   "要求點擊連結確認銀行帳戶資訊"
+  ],
+  "suspicious_phrases": [
+   "訂單異常：您有一筆退款待確認",
+   "請點擊下方連結登入並確認銀行帳戶資訊"
+  ]
+ },
+ "36961833f7cd4ec29a3edabca086cad4d23ba58e": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（sh0pee-tw.test）",
+   "要求點擊連結登入",
+   "網址可疑（非官方網域）"
+  ],
+  "suspicious_phrases": [
+   "點擊下方連結登入",
+   "hxxps://sh0pee-tw[.]test/refund"
+  ]
+ },
+ "a45a5f36b65c4832d3825668a3acd9cf44c3e409": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者網域仿冒（m1crosoft-365.test）",
+   "網址可疑（網域不正確）",
+   "24小時內需行動"
+  ],
+  "suspicious_phrases": [
+   "Action required: Your Microsoft 365 password expires today",
+   "hxxps://m1crosoft-365[.]test/keep-password"
+  ]
+ },
+ "e2399073e0fd5f7feabb07cb941ed90bd82f0a9c": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（m1crosoft-365.test）",
+   "要求立即行動並提供連結",
+   "使用不合理的寄件者"
+  ],
+  "suspicious_phrases": [
+   "Action required",
+   "your password is set to expire within 24 hours"
+  ]
+ },
+ "00a557f932b9d867a35bc5a1f65a8ab1e70c1df0": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "信件內容要求立即點擊連結以驗證身份，製造急迫感",
+   "網址看似可疑，非官方網域",
+   "寄件者網域看似仿冒"
+  ],
+  "suspicious_phrases": [
+   "URGENT!!",
+   "Click here immediatly"
+  ]
+ },
+ "302691ea466c9ce326da34a44d65079c71861656": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "英文寄件者網域非官方網域",
+   "使用英文且簡體字",
+   "緊迫感用詞「URGENT!!」",
+   "網址疑似仿冒"
+  ],
+  "suspicious_phrases": [
+   "You account has been suspend",
+   "Click here immediatly"
+  ]
+ },
+ "d540b9cf751294011beb01fd09a3ca6afeca78bc": {
+  "is_phishing": false,
+  "confidence": 30,
+  "reasons": [
+   "網址域名與正式網站不符"
+  ],
+  "suspicious_phrases": [
+   "hxxps://lib.niu.edu[.]tw"
+  ]
+ },
+ "7c26ba08cb80e03ca6c6633a529d2ebc9ded01cf": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu.edu.tw",
+   "網址有異常，使用了[.]tw",
+   "圖書館通知通常不會要求續借操作"
+  ],
+  "suspicious_phrases": [
+   "圖書館借閱到期通知",
+   "hxxps://lib.niu.edu[.]tw"
+  ]
+ },
+ "50e5f062cc907ce1ba9d2e6534a661a94309f462": {
+  "is_phishing": false,
+  "confidence": 20,
+  "reasons": [
+   "網址格式不標準，應使用https://而非hxxps://",
+   "未見可疑的繁體簡體混用"
+  ],
+  "suspicious_phrases": [
+   "hxxps://github[.]com/password_reset"
+  ]
+ },
+ "06c4613af4c340fc1a95ffbd7ce1057547698311": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "網址有異常，可能是仿冒網域",
+   "英文寄件者，但內容為繁體中文夾雜簡體字",
+   "要求點擊連結重設密碼，且有時間限制"
+  ],
+  "suspicious_phrases": [
+   "請重設您的密碼",
+   "3 小時內"
+  ]
+ },
+ "4caee9462bda8e09d0c245960b2f414030005006": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "引導加 LINE 客服",
+   "仿冒網域 example.com",
+   "用免費信箱寄正式通知"
+  ],
+  "suspicious_phrases": [
+   "立即加入線上專員 LINE（ID: @tw_cancel_889）",
+   "逾期將無法中止扣款"
+  ]
+ },
+ "9a904d2f693e286e4c53b08ba021d7531f7f72bc": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "冒充電商並引導加 LINE 客服",
+   "使用非官方網域",
+   "要求點擊連結退款",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "立即加入線上專員 LINE",
+   "逾期將無法中止扣款",
+   "hxxps://cancel-order-tw[.]example[.]com/refund"
+  ]
+ },
+ "054f6bd15cc121fb806d0d62c726e9a1edad6af1": {
+  "is_phishing": false,
+  "confidence": 30,
+  "reasons": [
+   "網域不正確，.gov.tw 網域未出現",
+   "未見要求加 LINE 客服"
+  ],
+  "suspicious_phrases": [
+   "逾期未繳納通知：您有一筆使用牌照稅／交通違規罰鍰尚未結清",
+   "若未於 24 小時內完成線上繳納，將依法移送強制執行並加徵滯納金"
+  ]
+ },
+ "49ac30ccfd10dffcc2299bb035374cafdfb46f48": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "網域不是 .gov.tw",
+   "要求立即線上繳納並加徵滯納金",
+   "使用不常見的網域名稱",
+   "制造急迫感"
+  ],
+  "suspicious_phrases": [
+   "逾期未繳納通知",
+   "24 小時內完成線上繳納",
+   "依法移送強制執行"
+  ]
+ },
+ "723ecb52401a18b05363186899d2e845c83b2695": {
+  "is_phishing": false,
+  "confidence": 70,
+  "reasons": [
+   "網域仿冒（niu-edu-tw.example.com）",
+   "要求登入外部連結更新密碼",
+   "缺乏校方官方網域 (.gov.tw)"
+  ],
+  "suspicious_phrases": [
+   "立即升級驗證",
+   "48 小時內登入以下驗證頁面"
+  ]
+ },
+ "77491b845ca31f67e0af380730759d021cfbd664": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.example.com",
+   "要求登入並更新密碼",
+   "有時限但網址不一致",
+   "使用非官方網域"
+  ],
+  "suspicious_phrases": [
+   "校園信箱容量即將已滿",
+   "48 小時內登入以下驗證頁面更新密碼"
+  ]
+ },
+ "41727e82b1f561c216a2569f2f40a345155a1b46": {
+  "is_phishing": false,
+  "confidence": 70,
+  "reasons": [
+   "寄件者使用免費信箱寄送正式通知",
+   "網址域名不常見，且非官方網域"
+  ],
+  "suspicious_phrases": [
+   "3 個工作天內下載檢視並回覆和解意願",
+   "否則將正式提出刑事告訴"
+  ]
+ },
+ "8f272b0a711b4e633b3cf9ed1886be45b1cc1634": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "要求下載附件並回覆",
+   "網址含有可疑的仿冒網域",
+   "使用英文和簡體字混用"
+  ],
+  "suspicious_phrases": [
+   "雲端資料夾",
+   "hxxps://",
+   "侵犯我方客戶之著作權"
+  ]
+ },
+ "43b1b29a3b3e655a30c07bebb39fe1e1496833b9": {
+  "is_phishing": false,
+  "confidence": 20,
+  "reasons": [
+   "寄件者使用 yahoo 邮箱，非常用官方邮箱",
+   "網址指向 TikTok，與信件內容無關",
+   "未見直接要求加 LINE 客服"
+  ],
+  "suspicious_phrases": [
+   "聯絡客服LINE @718uumnc"
+  ]
+ },
+ "86a3e0ba3b84f5ad913dc15bbc96e7da600b4e05": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "仿冒網域（tiktok[.]com）",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字",
+   "配送地址重複出現"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "聯絡客服LINE @718uumnc",
+   "hxxps://www.tiktok[.]com"
+  ]
+ },
+ "2aa37040a69f7fb9d21b8dbc0fb1dae66004faff": {
+  "is_phishing": false,
+  "confidence": 20,
+  "reasons": [
+   "寄件者電子郵件地址為 yahoo.co.jp，非台灣常用電子郵件服務商",
+   "信件內容未提及任何急迫性或限期",
+   "未見引導加 LINE 客服的內容",
+   "未見仿冒網域或可疑網址"
+  ],
+  "suspicious_phrases": [
+   "@757bcpij"
+  ]
+ },
+ "24963ed6f2dc48f393fa5dc87ecbcafa2ad0112f": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（wawie0708@yahoo.co.jp，看似合法但非官方網域）",
+   "「×12 期」分期付款",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字",
+   "要求提供聯絡電話和地址"
+  ],
+  "suspicious_phrases": [
+   "【姓名】",
+   "利用以下方式與我們取得聯繫",
+   "聯絡客服 LINE：@757bcpij"
+  ]
+ },
+ "4a7a96e53396f4672b659c5f34728c9db97ad78c": {
+  "is_phishing": true,
+  "confidence": 75,
+  "reasons": [
+   "網址仿冒新北洲際酒店官方網域",
+   "使用免費信箱寄送正式通知",
+   "信中夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "line-appxs[.]icu/tw",
+   "NT$ 19833（含稅及服務費）"
+  ]
+ },
+ "c803a3908c9c8b8c930c7a0d7dfaf6ad65125452": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（line-appxs[.]icu）",
+   "引導加 LINE 客服",
+   "使用免費信箱寄送正式通知",
+   "網址可疑",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "立即聯絡客服取消預定",
+   "hxxps://line-appxs[.]icu/tw"
+  ]
+ },
+ "6cbe5117a8ca009ffe89c225f6f616cdeb6a2f4e": {
+  "is_phishing": false,
+  "confidence": 20,
+  "reasons": [
+   "內容無緊迫感或急迫性",
+   "沒有引導加LINE客服或要求加好友"
+  ],
+  "suspicious_phrases": []
+ },
+ "1fc3dbb82c5ba65647be2d61c787b6733a632a8b": {
+  "is_phishing": false,
+  "confidence": 10,
+  "reasons": [
+   "寄件者不是官方網域",
+   "沒有要求敏感資訊或付款",
+   "內容看似是回覆表單提交"
+  ],
+  "suspicious_phrases": [
+   "從未回覆的收件匣寄出的"
+  ]
+ },
+ "221d904954f376245537911117579a5102c7ead8": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "冒充電商並引導退款",
+   "使用非官方網域",
+   "要求加 LINE 並點擊不明連結",
+   "製造急迫感"
+  ],
+  "suspicious_phrases": [
+   "立即加入線上專員",
+   "逾期將無法中止扣款",
+   "點擊下方連結辦理退款"
+  ]
+ },
+ "59168326d9967287e74921b85d0f551fcf32bcec": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "仿冒網域（tiktok[.]com）",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字",
+   "配送地址重複出現"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "利用以下方式與我們取得聯繫",
+   "聯絡客服賴 @718uumnc"
+  ]
+ },
+ "58fb698cf43d0c5a3c34c5538610e0ed85ff00ff": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者使用免費信箱 yahoo",
+   "仿冒網域 wawie0708",
+   "引導加 LINE 客服",
+   "製造急迫感（六月初一）",
+   "內容混雜繁體與簡體字"
+  ],
+  "suspicious_phrases": [
+   "【姓名】",
+   "聯絡客服 賴：@757bcpij",
+   "六月初一"
+  ]
+ },
+ "f995af23503487fb37d84ae44e7e8432f49bc0aa": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.test",
+   "引導在外部連結上輸入身分資訊",
+   "制造急迫感，要求 24 小時內完成"
+  ],
+  "suspicious_phrases": [
+   "外部裝置登入",
+   "逾期帳號將暫時停用",
+   "hxxps://niu-edu-tw[.]test/verify"
+  ]
+ },
+ "9d6d33fa85aa2cfe5ea65427c796d9e5dadd960c": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（post-gov-tw.test）",
+   "要求支付費用並加急處理",
+   "網址可疑（非官方網域）"
+  ],
+  "suspicious_phrases": [
+   "４８ 小時內更新地址",
+   "逾期將退回"
+  ]
+ },
+ "34f8934f214b1011011c13afefcccae25703fabf": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（sh0pee-tw.test）",
+   "要求點擊連結登入",
+   "網址可疑（非官方網域）"
+  ],
+  "suspicious_phrases": [
+   "點擊下方連結登入",
+   "hxxps://sh0pee-tw[.]test/refund"
+  ]
+ },
+ "6d5a9f94c9ad044cc4e7070e581882263b5c964f": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（m1crosoft-365.test）",
+   "要求立即行動（24 小時內）",
+   "網址可疑",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "Action required",
+   "２４ 小時內",
+   "hxxps://m1crosoft-365[.]test/keep-password"
+  ]
+ },
+ "140a25c6d38604eb61040694af021d3c6ba42ac7": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "冒充電商並引導加 LINE 客服",
+   "使用非官方網域",
+   "要求點擊連結退款",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "立即加入線上專員 LINE",
+   "逾期將無法中止扣款",
+   "hxxps://cancel-order-tw[.]example[.]com/refund"
+  ]
+ },
+ "fc78d5e2577f996a991f89482ae9701cf3093465": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "網域不是 .gov.tw",
+   "引導至不明來源的網站",
+   "制造急迫感",
+   "網址疑似仿冒"
+  ],
+  "suspicious_phrases": [
+   "逾期未繳納通知",
+   "依法移送強制執行",
+   "２４ 小時內完成線上繳納"
+  ]
+ },
+ "ee2fab09821836dcd2591b58d07939507016917d": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.example.com",
+   "要求登入並更新密碼",
+   "有時限 48 小時",
+   "網址看似可疑，使用了替代域名"
+  ],
+  "suspicious_phrases": [
+   "新版雙重認證綁定",
+   "４８ 小時內登入",
+   "hxxps://webmail-auth[.]example[.]com/login"
+  ]
+ },
+ "7314417744cb823807f86e0fac33d02277f9cd9e": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "要求下載附件並回覆",
+   "引導至可疑網址",
+   "使用英文和簡體字混用"
+  ],
+  "suspicious_phrases": [
+   "雲端資料夾",
+   "hxxps://",
+   "３ 個工作天內"
+  ]
+ },
+ "11a9d35339062027c7b776736589d46d589946e5": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "仿冒網域（tiktok[.]com）",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字",
+   "配送地址重複出現"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "聯絡客服LINE ＠718uumnc",
+   "hxxps://www.tiktok[.]com"
+  ]
+ },
+ "30beac2556cabcbfb3f71121df5ac1026a026c2e": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者使用免費信箱 yahoo",
+   "仿冒網域 wawie0708",
+   "繁體中文夾雜簡體字",
+   "引導加 LINE 客服",
+   "製造急迫感"
+  ],
+  "suspicious_phrases": [
+   "【姓名】",
+   "聯絡客服 LINE：＠７５７bcpij",
+   "附件：認真生活 簡單幸福守則.docx"
+  ]
+ },
+ "ba8bdce3c81cadb21b353acd39340c9ff234df63": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "仿冒網域（line-appxs[.]icu）",
+   "繁體中文夾雜簡體字",
+   "要求立即聯絡客服取消預定",
+   "使用不合理的連結網址"
+  ],
+  "suspicious_phrases": [
+   "line-appxs[.]icu",
+   "２０２６/１１/１８／退房日期：２０２６/１１/１９",
+   "NT$ １９８３３（含稅及服務費）"
+  ]
+ },
+ "a99c328c295cf6ea714dbb7919eb7b815421c2ce": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "冒充電商並引導加 LINE 客服",
+   "使用非官方網域",
+   "要求點擊不明連結退款",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "立即加入線上專員 LINE",
+   "點擊下方連結辦理退款",
+   "hxxps://cancel-order-tw[.]example[.]com/refund"
+  ]
+ },
+ "5a48b81106e62aa8a9386fc353a2c048d3c35f7c": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "仿冒網域（tiktok）",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字",
+   "要求提供聯絡電話"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "聯絡客服LINE @718uumnc",
+   "hxxps://www.tiktok[.]com"
+  ]
+ },
+ "ff1181c3ed1adcf607d4b4f92267d61342920986": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者使用免費信箱 yahoo.co.jp",
+   "仿冒網域 wawie0708@yahoo.co.jp",
+   "引導加 LINE 客服",
+   "仿造官方通知格式",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "利用以下方式與我們取得聯繫",
+   "聯絡客服 LINE：@757bcpij"
+  ]
+ },
+ "aa6659c1127c6420814c71d07e2787c77398c8ab": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.test",
+   "要求用戶進行身分驗證",
+   "網址有異常，使用了 .test 結尾"
+  ],
+  "suspicious_phrases": [
+   "外部裝置登入",
+   "完成身分驗證"
+  ]
+ },
+ "94635ae7695577a57c23e7828df5e337a69606df": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（post-gov-tw.test）",
+   "要求支付費用重新配送",
+   "網址可疑（非官方網域）"
+  ],
+  "suspicious_phrases": [
+   "更新地址並支付 NT$32",
+   "hxxps://post-gov-tw[.]test/redeliver"
+  ]
+ },
+ "8aa2a0979ca440a0ba0ef318a494375dec3403be": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（sh0pee-tw.test）",
+   "要求點擊連結登入並確認銀行帳戶資訊",
+   "使用非官方網域"
+  ],
+  "suspicious_phrases": [
+   "點擊下方連結登入",
+   "退款",
+   "hxxps://sh0pee-tw[.]test/refund"
+  ]
+ },
+ "130471e4bd7bdaf646fbb7f79343502bf4b59d40": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒網域（m1crosoft-365.test）",
+   "要求立即行動並提供可疑連結",
+   "使用英文且繁體字中夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "Action required",
+   "hxxps://m1crosoft-365[.]test/keep-password"
+  ]
+ },
+ "14f017a3945a73b7102094798070d2eb30f846db": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "網域仿冒（bank-verify.test）",
+   "英文寄件者但內容夾雜簡體字",
+   "使用緊迫感（URGENT!!）",
+   "要求點擊連結驗證身份"
+  ],
+  "suspicious_phrases": [
+   "URGENT!!",
+   "You account has been suspend",
+   "Click here immediatly"
+  ]
+ },
+ "ff04bb00593e40447b8f9ba035dbde055b761181": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "冒充電商並引導加 LINE 客服",
+   "使用仿冒網域",
+   "要求點擊連結退款",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "加入線上專員 LINE",
+   "點擊下方連結辦理退款"
+  ]
+ },
+ "0008fea022dee2c4a9045f6a4fb126c8d47404a1": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "網域不是 .gov.tw",
+   "要求線上刷卡繳納",
+   "引導至不明來源的網站",
+   "使用滯納金等緊迫性詞彙"
+  ],
+  "suspicious_phrases": [
+   "逾期未繳納通知",
+   "依法移送並加徵滯納金",
+   "前往線上繳費專區完成刷卡繳納"
+  ]
+ },
+ "f112c2943ee971c5563318d2239f8f3285a746a1": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.example.com",
+   "要求登入並更新密碼",
+   "網址含有可疑的字元如 [.]"
+  ],
+  "suspicious_phrases": [
+   "登入以下驗證頁面更新密碼",
+   "hxxps://webmail-auth[.]example[.]com/login"
+  ]
+ },
+ "829dee9176725cc825f41b7905cd48e621cdf388": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "用免費信箱寄正式通知",
+   "要求下載附件並回覆",
+   "網址含有可疑子域名",
+   "製造急迫感"
+  ],
+  "suspicious_phrases": [
+   "雲端資料夾",
+   "3 個工作天內下載檢視",
+   "hxxps://drive-legal-doc[.]example[.]com/evidence.zip"
+  ]
+ },
+ "4fe932d82b9e01e878a0f87ab5ce72ec532cccc9": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "仿冒網域（tiktok）",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字",
+   "配送地址重複出現"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "聯絡客服LINE @718uumnc",
+   "hxxps://www.tiktok[.]com"
+  ]
+ },
+ "88f57074d4801b53e020b681eec3ab9af7cf3684": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（wawie0708@yahoo.co.jp，看似合法但非官方網域）",
+   "「×12 期」分期付款手法",
+   "引導加 LINE 客服",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "【姓名】",
+   "聯絡客服 LINE：@757bcpij"
+  ]
+ },
+ "c00f1dc458ee8c0641e2e403806c5b50cacf7009": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（line-appxs[.]icu）",
+   "繁體中文夾雜簡體字",
+   "引導加 LINE 客服",
+   "制造急迫感（請忽略此通知）"
+  ],
+  "suspicious_phrases": [
+   "line-appxs[.]icu",
+   "繁體中文夾雜簡體字",
+   "請忽略此通知"
+  ]
+ },
+ "6633036d83f2ba71d899d3b17ac59111417a8833": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.test",
+   "要求掃描 QR Code 完成驗證",
+   "引導至外部裝置登入驗證"
+  ],
+  "suspicious_phrases": [
+   "外部裝置登入",
+   "24 小時內完成身分驗證"
+  ]
+ },
+ "00359d7f69c4cd255d616f681726d64d0f59be02": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 post-gov-tw.test",
+   "要求重新支付配送費",
+   "使用 QR Code 驗證",
+   "引導在 48 小時內操作"
+  ],
+  "suspicious_phrases": [
+   "暫存於物流中心",
+   "逾期將退回"
+  ]
+ },
+ "f4c5e62416b253e985e6d8df90a52bc9a71517ce": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（sh0pee-tw.test）",
+   "要求點擊連結登入並確認銀行帳戶資訊",
+   "製造急迫感（未完成）"
+  ],
+  "suspicious_phrases": [
+   "點擊下方連結登入",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "996d8126aaf8d128a12389e43b55532a5454846c": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒 Microsoft 365 官方網域",
+   "要求掃描 QR Code 驗證",
+   "24 小時內到期的緊迫感"
+  ],
+  "suspicious_phrases": [
+   "Action required",
+   "Your Microsoft 365 password expires today"
+  ]
+ },
+ "ec441708bcd2573d5e4cbac5e482cb758844ab5d": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "英文寄件者網域非官方網域",
+   "使用英文且簡體字混用",
+   "要求立即點擊連結驗證",
+   "要求掃描 QR Code"
+  ],
+  "suspicious_phrases": [
+   "URGENT!!",
+   "You account has been suspend"
+  ]
+ },
+ "7e75479c5c9b75dc26802c29c34223c9d8a83d13": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "引導加 LINE 客服",
+   "使用無效網址",
+   "要求立即退款",
+   "仿冒網域"
+  ],
+  "suspicious_phrases": [
+   "立即加入線上專員 LINE",
+   "逾期將無法中止扣款"
+  ]
+ },
+ "da7b5da3684f0437461563b1c840154efcd06e19": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "網域不是 .gov.tw",
+   "要求立即線上繳納並加徵滯納金",
+   "使用 QR Code 驗證",
+   "制造急迫感"
+  ],
+  "suspicious_phrases": [
+   "逾期未繳納通知",
+   "24 小時內完成線上繳納",
+   "依法移送強制執行"
+  ]
+ },
+ "1c2e3de61372368ef0c74b89d3003c911844a40c": {
+  "is_phishing": false,
+  "confidence": 10,
+  "reasons": [
+   "寄件網域看似合理，但未使用 .gov.tw 等官方網域",
+   "未要求立即付款或提供個人資訊",
+   "48 小時內完成驗證合理"
+  ],
+  "suspicious_phrases": []
+ },
+ "19f4136cb646bb5d632a1b20d663f3c49480507a": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "用免費信箱寄正式通知",
+   "要求掃描 QR Code 完成驗證",
+   "引導回附件中的雲端資料夾",
+   "有急迫感（3 個工作天內）"
+  ],
+  "suspicious_phrases": [
+   "請於 3 個工作天內下載檢視並回覆和解意願",
+   "否則將正式提出刑事告訴"
+  ]
+ },
+ "e6a7fdddd2af6b03653780a8ed8115a30bf36820": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "仿冒網域（hitomis2t@yahoo.co.jp）",
+   "引導加 LINE 客服",
+   "「×12」分期付款",
+   "要求掃描 QR Code 驗證"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "利用以下方式與我們取得聯繫",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "a6501f736f0f37eba06696ed7b08a560db6d192e": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "仿冒網域（wawie0708@yahoo.co.jp，看似合法但非官方網域）",
+   "引導加 LINE 客服",
+   "要求掃描 QR Code 驗證",
+   "繁體中文夾雜簡體字",
+   "有附件要求驗證"
+  ],
+  "suspicious_phrases": [
+   "利用以下方式與我們取得聯繫",
+   "聯絡客服 LINE：@757bcpij",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "fb3e6b12dcc38a5d98c7e4e06942ac33fd300301": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（m.ychkair.com）",
+   "要求掃描 QR Code 完成驗證",
+   "引導客服取消預定，暗示非本人操作"
+  ],
+  "suspicious_phrases": [
+   "立即聯絡客服取消預定",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "6cbdbe2d968319fa614f10909f51a0aec3689433": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 niu-edu-tw.test",
+   "要求在 24 小時內完成身分驗證",
+   "使用 QR Code 進行驗證"
+  ],
+  "suspicious_phrases": [
+   "外部裝置登入",
+   "暫時",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "77586fa4a4aa29713dbefe85158beb75b9ce161a": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域 post-gov-tw.test",
+   "要求重新支付費用",
+   "使用 QR Code 驗證",
+   "引導更新地址"
+  ],
+  "suspicious_phrases": [
+   "４８ 小時內更新地址",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "1b118473feb4cc39cfbd39ed75a401ab615124c0": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "仿冒網域（sh0pee-tw.test）",
+   "要求點擊連結登入並確認銀行帳戶資訊",
+   "使用 QR Code 進行驗證",
+   "引導加急處理"
+  ],
+  "suspicious_phrases": [
+   "點擊下方連結登入",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "ffaf78cde0afa4d132044405b05e5f85fc4757cd": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "仿冒 Microsoft 365 名稱",
+   "要求使用者掃描 QR Code 驗證",
+   "信件夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "Action required",
+   "２４ 小時",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "4c3e8193d8ff727e090c5a5bdfb0dc60c2d0a44c": {
+  "is_phishing": true,
+  "confidence": 95,
+  "reasons": [
+   "英文寄件者名稱可疑",
+   "使用英文且內容急迫",
+   "要求點擊連結驗證身份",
+   "使用 QR Code 驗證",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "URGENT!!",
+   "You account has been suspend"
+  ]
+ },
+ "f60896a995232383453c47df8a81831eecc352d2": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "引導加 LINE 並點擊連結退款",
+   "仿冒網域（example.com）",
+   "製造急迫感（今日扣款）",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "加入線上專員 賴（ID: ＠tw_cancel_８８９）",
+   "點擊下方連結辦理退款"
+  ]
+ },
+ "9893f99202a7e5b958286f82226645405df6ae4f": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "網域仿冒台灣政府網域.gov.tw",
+   "要求立即線上繳納並加徵滯納金",
+   "使用 QR Code 驗證",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "逾期未繳納通知",
+   "２４ 小時內完成線上繳納",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "30955e84f6b9fe2ac019d81a265f937e325fa3ea": {
+  "is_phishing": false,
+  "confidence": 20,
+  "reasons": [
+   "網域仿冒，正確網域應為 .gov.tw 或 .edu.tw",
+   "未要求加 LINE 或提供不明連結",
+   "有合理期限但未提供具體網址"
+  ],
+  "suspicious_phrases": [
+   "校園信箱容量即將已滿",
+   "請於 ４８ 小時內登入"
+  ]
+ },
+ "38072bf90a41f7212f2821dfaec4a6e7d7370ca3": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "寄件者使用免費信箱",
+   "要求下載附件並驗證",
+   "使用急迫語句（３ 個工作天內）",
+   "繁體中文夾雜簡體字"
+  ],
+  "suspicious_phrases": [
+   "請於 ３ 個工作天內下載檢視",
+   "侵權截圖與比對報告已整理於雲端資料夾"
+  ]
+ },
+ "2b1cfe5f3af585e7d411c30ac2cdd33138da1cb8": {
+  "is_phishing": true,
+  "confidence": 92,
+  "reasons": [
+   "寄件者使用免費信箱 yahoo",
+   "仿冒網域（hitomis2t），看似合法但可疑",
+   "引導掃描 QR Code 完成驗證",
+   "繁體中文夾雜簡體字",
+   "要求聯繫客服並提供手機號碼"
+  ],
+  "suspicious_phrases": [
+   "No.3494532配送地址：南港區玉成街66號.66之13號",
+   "利用以下方式與我們取得聯繫",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "905f53f628aa7ae4a5d9edbe004194d43f78dfca": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（shopee.tw 類似 shopee.tw）",
+   "繁體中文夾雜簡體字",
+   "要求掃描 QR Code 驗證",
+   "引導加 LINE 客服",
+   "製造急迫感（六月初一）"
+  ],
+  "suspicious_phrases": [
+   "【姓名】",
+   "利用以下方式與我們取得聯繫",
+   "請掃描附件中的 QR Code 完成驗證"
+  ]
+ },
+ "c69628d5ad38c5cd9ab6e721b30f6136191bd821": {
+  "is_phishing": true,
+  "confidence": 85,
+  "reasons": [
+   "仿冒網域（m.ychkair.com，正確網域應為 ychkair.com）",
+   "繁體中文夾雜簡體字",
+   "要求掃描 QR Code 完成驗證",
+   "要求聯繫客服取消預定，暗示非本人操作"
+  ],
+  "suspicious_phrases": [
+   "【姓名】先生/小姐",
+   "２０２６/１１/１８／退房日期：２０２６/１１/１９",
+   "NT$ １９８３３（含稅及服務費）"
+  ]
+ }
+}
